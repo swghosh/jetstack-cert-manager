@@ -30,7 +30,7 @@ require (
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
-	golang.org/x/crypto v0.19.0
+	golang.org/x/crypto v0.22.0
 	golang.org/x/oauth2 v0.15.0
 	golang.org/x/sync v0.5.0
 	gomodules.xyz/jsonpatch/v2 v2.4.0
@@ -46,7 +46,7 @@ require (
 	k8s.io/kube-aggregator v0.29.0
 	k8s.io/kube-openapi v0.0.0-20240103051144-eec4567ac022
 	k8s.io/utils v0.0.0-20240102154912-e7106e64919e
-	sigs.k8s.io/controller-runtime v0.16.3
+	sigs.k8s.io/controller-runtime v0.16.5
 	sigs.k8s.io/controller-tools v0.13.0
 	sigs.k8s.io/gateway-api v1.0.0
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1
@@ -157,9 +157,9 @@ require (
 	go.uber.org/zap v1.26.0 // indirect
 	golang.org/x/exp v0.0.0-20231226003508-02704c960a9b // indirect
 	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/net v0.19.0 // indirect
-	golang.org/x/sys v0.17.0 // indirect
-	golang.org/x/term v0.17.0 // indirect
+	golang.org/x/net v0.24.0 // indirect
+	golang.org/x/sys v0.19.0 // indirect
+	golang.org/x/term v0.19.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	golang.org/x/tools v0.16.1 // indirect
