@@ -260,6 +260,7 @@ func (r *DNSProvider) changeRecord(ctx context.Context, action route53types.Chan
 	}
 
 	statusID := resp.ChangeInfo.Id
+	log.V(logf.DebugLevel).WithValues("statusID", statusID, "fqdn", fqdn).Info("change record set processing")
 
 	return util.WaitFor(120*time.Second, 4*time.Second, func() (bool, error) {
 		reqParams := &route53.GetChangeInput{
